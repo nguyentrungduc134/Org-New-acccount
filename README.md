@@ -31,19 +31,4 @@ module "aws_subaccount_setup" {
   }
 }
 
-output "new_account_id" {
-  value = module.aws_subaccount_setup.new_account_id
-}
-
-output "admin_role_arn" {
-  value = module.aws_subaccount_setup.admin_role_arn
-}
-
-output "switch_role_arn" {
-  value = module.aws_subaccount_setup.switch_role_arn
-}
-
-output "new_instance_id" {
-  value = module.aws_subaccount_setup.new_instance_id
-}
 
